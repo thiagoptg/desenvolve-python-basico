@@ -28,7 +28,11 @@ print(v2-10)
 juros = 1.01
 saldo = 500.0
 saldo = saldo * juros
+print("Após 1 mês meu novo saldo é")
+print(saldo)
 saldo = saldo * juros
+print("Após 2 meses meu novo saldo é")
+print(saldo)
 saldo = saldo * juros
 print("Após 3 meses meu novo saldo é")
 print(saldo)
