@@ -15,7 +15,7 @@ area= comprimento * largura
 preco_total = preco * area
 
 # imprime o resultado formatado
-print("O terreno possui" , area ,"m2 e custa",preco_total)
+print(f"O terreno possui {area}m2 e custa R${preco_total:,.2f})
 
 #Q2
 # lê um valor inteiro em Fahrenheit
@@ -83,4 +83,5 @@ print(f"{notas10} nota(s) de R$10,00")
 print(f"{notas5} nota(s) de R$5,00")
 print(f"{notas2} nota(s) de R$2,00")
 print(f"{notas1} nota(s) de R$1,00")
+
 
